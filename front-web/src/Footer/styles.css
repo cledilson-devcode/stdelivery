@@ -1,0 +1,32 @@
+.main-footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: var(--dark-color);
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFF;
+  }
+  
+  .footer-icons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-icons > * {
+    margin-right: 5px;
+  }
+
+  a:visited{
+    color: #FFF;
+  }
+
+  a:active{
+    color: red;
+  }
+
+  a:hover{
+    transform: scale(1.2,1.2);
+  }
